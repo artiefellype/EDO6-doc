@@ -6,6 +6,7 @@ Custom Personal Documentation for EDO6 Educational Robotics Kits
 Tabelas de conteúdo 
  1. [Informações Relevantes](#info)
  2. [Componentes do Kit](#components)
+ 3. [Download KaziCode)](#download)
 
 *******
 
@@ -93,3 +94,17 @@ Tabelas de conteúdo
 
 
   - A controladora é programável por software do tipo Scratch. A interface utiliza como fonte de alimentação conexão USB através de computador ou baterias recarregáveis instaladas internamente em formato de case além de possibilidade de utilizar fonte externa DC. O cabo USB e baterias (e seus respectivos carregadores) e fonte externa DC estão inclusos no kit.
+
+
+<br>
+<br>
+
+<div id='download' />
+
+## Download KaziCode
+
+|OS   |LINK |
+---  |  ---  |
+|Windows	     | [KaziCode_Setup_1.0.32.rar](http://file.kazi.ai/Public/file/KaziCode%20Setup%201.0.32_en.rar) |
+|Linux  | [scratch-en-linux.zip](http://file.kazi.ai/Public/file/scratch-en-linux.zip) |
+

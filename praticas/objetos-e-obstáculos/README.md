@@ -4,6 +4,9 @@
 
 - Você vai precisar da extensão do Sensor Ultrassônico para detectar objetos e obstáculos. Construa o Cuboide e, então construa a extensão na Base Motriz.
 
+<br>
+<br>
+
   ![Cubic image](images/cuboid.png)
   ![sensor image](images/ultrasonic.png)
 

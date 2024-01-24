@@ -111,6 +111,9 @@ Tabelas de conteúdo
 |Windows	     | [KaziCode_Setup_1.0.32.rar](http://file.kazi.ai/Public/file/KaziCode%20Setup%201.0.32_en.rar) |
 |Linux  | [scratch-en-linux.zip](http://file.kazi.ai/Public/file/scratch-en-linux.zip) |
 
+
+_Caso o download não seja feito e o navegador esteja barrando, copie o endereço do link, cole a url no navegador e ao iniciar o download clique em 'manter'_
+
 <div id='programming'/>
 
 ## Programação

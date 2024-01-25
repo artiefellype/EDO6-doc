@@ -4,6 +4,27 @@
 
   ![Imagem com rodas, pneus, engrenagens](images/color-sensor.png)
 
+  <br>
+  <br>
+
+- Uma das formas de identificarmos a cor percebida pelo sensor é se utilizar do valor retornado pelo bloco/função ```getSensorColor```
+<br>
+ <br>
+
+
+
+  | COLOR | VALUE |
+  | ----  | ----  |
+  |Preto | 7|
+  |Branco | 6|
+  |Nao identificado| 5|
+  |Amarelo| 4|
+  |Azul | 3| 
+  |Verde |2|
+  |Vermelho ou Laranja | 1|
+  |Nao identificado| 0|
+
+
 
  <br>
  <br>

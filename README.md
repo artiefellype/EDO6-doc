@@ -9,6 +9,14 @@ Tabelas de conteúdo
  3. [KaziCode](#kazi)
     - [Download](#download)
     - [Programação](#programming)
+    - [Usando linguagem C](/C_doc/)
+    - [Usando Blocos](/blocos_doc/)
+        - [Funções](/blocos_doc/#funcoes)
+ 4. [Base do carrinho](/base-motriz/)
+ 5. Sensores
+    - [Ultrasonico](/aulas/aula_04-sensores/CODIGO-sensor_de_obstaculo/)
+    - [Sensor de cor](/aulas/aula_04-sensores/CODIGO-sensor_de_cores_e_luz/)
+    - [Sensor giroscópio](/aulas/aula_03-manipulacao/CODIGO-movimento_giroscopio/#custom_manipulation)
 
 *******
 

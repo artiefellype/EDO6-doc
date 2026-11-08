@@ -2,8 +2,8 @@
 
 ## 1. Baixe e confira o arquivo
 
-Baixe `KaziCode-1.0.31-windows-x64.rar` na
-[release do projeto](https://github.com/artiefellype/EDO6-doc/releases/tag/kazicode-1.0.31)
+Baixe [`KaziCode-1.0.31-windows-x64.rar`](https://github.com/artiefellype/EDO6-doc/releases/download/kazicode-1.0.31/KaziCode-1.0.31-windows-x64.rar)
+na [release do projeto](https://github.com/artiefellype/EDO6-doc/releases/tag/kazicode-1.0.31)
 e confira o [SHA-256 publicado](./README.md#sha-256).
 
 ## 2. Extraia o instalador

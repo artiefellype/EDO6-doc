@@ -8,8 +8,8 @@ O pacote recuperado para Linux é portátil: ele não traz um instalador separad
 
 ## 1. Baixe e confira o arquivo
 
-Baixe `KaziCode-1.0.31-linux-x64.zip` na
-[release do projeto](https://github.com/artiefellype/EDO6-doc/releases/tag/kazicode-1.0.31)
+Baixe [`KaziCode-1.0.31-linux-x64.zip`](https://github.com/artiefellype/EDO6-doc/releases/download/kazicode-1.0.31/KaziCode-1.0.31-linux-x64.zip)
+na [release do projeto](https://github.com/artiefellype/EDO6-doc/releases/tag/kazicode-1.0.31)
 e confira o [SHA-256 publicado](./README.md#sha-256).
 
 ## 2. Extraia e execute

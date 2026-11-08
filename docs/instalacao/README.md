@@ -12,11 +12,11 @@ foram produzidos por este projeto.
 
 | Sistema | Arquivo | Versão interna | Estado |
 | --- | --- | --- | --- |
-| Windows x64 | `KaziCode-1.0.31-windows-x64.rar` | 1.0.31 | arquivo íntegro; executável não assinado |
-| Linux x64 | `KaziCode-1.0.31-linux-x64.zip` | 1.0.31 | estrutura do pacote conferida |
+| Windows x64 | [`KaziCode-1.0.31-windows-x64.rar`](https://github.com/artiefellype/EDO6-doc/releases/download/kazicode-1.0.31/KaziCode-1.0.31-windows-x64.rar) | 1.0.31 | arquivo íntegro; executável não assinado |
+| Linux x64 | [`KaziCode-1.0.31-linux-x64.zip`](https://github.com/artiefellype/EDO6-doc/releases/download/kazicode-1.0.31/KaziCode-1.0.31-linux-x64.zip) | 1.0.31 | estrutura do pacote conferida |
 | Linux ARM64 | — | — | indisponível: a cópia recuperada estava truncada |
 
-Os arquivos válidos serão publicados na
+Os arquivos válidos estão publicados na
 [release do KaziCode 1.0.31](https://github.com/artiefellype/EDO6-doc/releases/tag/kazicode-1.0.31).
 
 ### SHA-256

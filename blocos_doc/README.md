@@ -1,43 +1,43 @@
-# Usando Blocos
+# Usando blocos
 
- - ## Funções
-    Podemos utilizar funções no kazi scratch por meio dos blocos "My Blocks"
+## Funções
 
+Podemos criar funções no KaziCode por meio da categoria `My Blocks`.
 
-    ![my blocs](/blocos_doc/images/myblockopt.png)
+![Categoria My Blocks](./images/myblockopt.png)
 
-    <span>----------------------------------------------------------------------</span>
+---
 
-    Nessa opção de bloco não temos nenhum bloco de uso pronto, aqui faremos nossos próprios blocos de execução, em resumo: nossas funções
+No início, essa categoria não possui blocos prontos: é aqui que criamos nossos
+próprios blocos de execução — em resumo, nossas funções.
 
+![Botão para criar um bloco](./images/makeblock.png)
 
-    ![my blocs](/blocos_doc/images/makeblock.png)
+---
 
-    <span>----------------------------------------------------------------------</span>
+Os blocos podem receber parâmetros e usá-los durante a execução. Dê um nome
+ao novo bloco, adicione os parâmetros necessários e continue.
 
-    Os 'my blocks' nos permitem a criação de blocos que possam receber parametros e utilizarem eles na execução, de um nome ao seu bloco e continue.
+![Criação de um bloco com parâmetros](./images/createblock.png)
 
+---
 
-    ![my blocs](/blocos_doc/images/createblock.png)
+O bloco criado aparece na barra de blocos disponíveis. Sua definição funciona
+como uma função: dentro dela colocamos as instruções que devem ser executadas.
+No exemplo abaixo, o novo bloco para os motores do carrinho.
 
-    <span>----------------------------------------------------------------------</span>
+![Bloco criado para parar os motores](./images/myblockstop.png)
+![Definição do bloco que para os motores](./images/blockstop.png)
 
-    O bloco criado irá aparecer na barra de blocos utilizáveis, ao por ele na interface de montagem de blocos ele irá funcionar semelhante a uma função, definiremos ele ao montar dentro dele outros blocos de execução. A função de exemplo irá parar os motores do carrinho.
+---
 
-     ![my blocs](/blocos_doc/images/myblockstop.png)
-     ![my blocs](/blocos_doc/images/blockstop.png)
+Para usar o novo bloco, arraste-o da categoria `My Blocks` para a tarefa que está
+montando.
 
-    <span>----------------------------------------------------------------------</span>
+![Uso do bloco criado](./images/uso.png)
 
-    Para usar nosso novo bloco, apenas precisamos pegar o bloco que surgiu na barra em 'my blocks' e arrasta-lo para o bloco de controle de tarefa em execução
+---
 
-    ![my blocs](/blocos_doc/images/uso.png)
+Também podemos criar blocos com parâmetros booleanos ou variáveis.
 
-    <span>----------------------------------------------------------------------</span>
-
-    Também podemos criar os blocos passando parametros booleanos ou variaveis
-
-    ![my blocs](/blocos_doc/images/complex.png)
-
-    <span>----------------------------------------------------------------------</span>
-
+![Bloco com parâmetros booleanos e variáveis](./images/complex.png)

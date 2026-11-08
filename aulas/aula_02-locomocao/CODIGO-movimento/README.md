@@ -6,15 +6,13 @@
 <br>
 <br>
 
-1. [Movimento em Linha reta:](./code)
-    - [Blocos](./code/blocks/)
-    - [Python](./code/python/)
-    - [C](./code/)
+1. Movimento em linha reta:
+    - [explicação e imagens dos blocos](./code/);
+    - [projeto do KaziCode](./code/linha-reta.sb3).
 
-1. [Movimento realizando curva:](./code)
-    - [Blocos](./code/blocks/)
-    - [Python](./code/python/)
-    - [C](./code/)
+2. Movimento realizando curva:
+    - [explicação e imagens dos blocos](./code/);
+    - [projeto do KaziCode](./code/linha-curva.sb3).
 
 <br>
 <br>

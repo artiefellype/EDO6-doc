@@ -1,145 +1,141 @@
 # EDO6-doc
-Custom Personal Documentation for EDO6 Educational Robotics Kits
-------------------------------------------------------------
 
-*******
-Tabelas de conteúdo 
- 1. [Informações Relevantes](#info)
- 2. [Componentes do Kit](#components)
- 3. [KaziCode](#kazi)
-    - [Download](#download)
-    - [Programação](#programming)
-    - [Usando linguagem C](/C_doc/)
-    - [Usando Blocos](/blocos_doc/)
-        - [Funções](/blocos_doc/#funcoes)
- 4. [Base do carrinho](/base-motriz/)
- 5. Sensores
-    - [Ultrasonico](/aulas/aula_04-sensores/CODIGO-sensor_de_obstaculo/)
-    - [Sensor de cor](/aulas/aula_04-sensores/CODIGO-sensor_de_cores_e_luz/)
-    - [Sensor giroscópio](/aulas/aula_03-manipulacao/CODIGO-movimento_giroscopio/#custom_manipulation)
+Documentação comunitária para o conjunto de robótica educacional EDO6.
 
-*******
+Este repositório nasceu da necessidade de fazer o kit funcionar quando o manual
+e os links oficiais já não respondiam tudo. Aqui reunimos material de aula,
+testes, exemplos e pequenas descobertas — inclusive aquelas peças que nem sempre
+encaixam de primeira ¯\\_(ツ)_/¯.
 
+> [!IMPORTANT]
+> Este é um projeto independente e não oficial. Sempre que possível, indicamos o
+> que foi observado no software, o que veio do manual e o que ainda precisa ser
+> confirmado no equipamento.
 
-<div id='info'/>  
-  
-  ## Info
+## Por onde começar
 
- O **CONJUNTO DE ROBÓTICA EDUCIONAL ED06** apresenta aos estudantes a oportunidade de utilizar os conhecimentos teóricos, aplicando-os de forma prática por meio da construção de protótipos funcionais que, contextualizados, aperfeiçoam a qualidade do ensino e aprendizagem nas escolas.
+| Quero... | Ir para |
+| --- | --- |
+| baixar o KaziCode | [Downloads e verificação dos arquivos](./docs/instalacao/) |
+| instalar no Windows | [Instalação no Windows](./docs/instalacao/windows.md) |
+| instalar no Linux | [Instalação no Linux](./docs/instalacao/linux.md) |
+| programar com blocos | [Usando blocos](./blocos_doc/) |
+| programar em C | [Programação em C](./docs/programacao/c.md) |
+| montar a base do carrinho | [Base motriz](./base-motriz/) |
+| consultar as aulas | [Material das aulas](./aulas/) |
 
- O kit é constituído por mais de 750 peças plásticas que possibilitam a realização de atividades em grupos de 2 a 4 alunos através da tipologia e quantidade adequada de cada tipo de peças e que exploram diferentes áreas do conhecimento – *ciência, tecnologia, engenharia, artes e matemática* – por meio da construção de montagens sem motorização, com motorização e/ou automatizadas (máquinas, equipamentos, etc.), utilizando, para tanto peças plásticas facilmente encaixáveis ( ou não  ¯\\\_(ツ)\_/¯ ), não dependendo do uso de ferramentas. 
- 
- Todos os itens apresentam plena compatibilidade mecânica e eletrônica com as peças de montar e a interface eletrônica.
+## ED06 ou EDO6?
 
-<div id='components' />
+Os dois nomes aparecem em manuais, arquivos e buscas sobre o kit. Neste projeto
+usamos **EDO6** como nome principal, mas mantemos **ED06** em alguns trechos para
+que a documentação continue fácil de encontrar.
 
-  ## Componentes do Kit
+## Sobre o kit
 
- - Rodas, Pneus, e engrenagem.
+O conjunto de robótica educacional EDO6 permite transformar conteúdos de
+ciências, tecnologia, engenharia, artes e matemática em protótipos funcionais.
+As mais de 750 peças podem ser usadas por grupos de 2 a 4 estudantes em projetos
+sem motor, motorizados ou automatizados.
 
-    ![Imagem com rodas, pneus, engrenagens](images/rodas-pneus.png)
+As peças plásticas são encaixáveis e, em geral, dispensam ferramentas. Os
+componentes mecânicos e eletrônicos foram feitos para trabalhar em conjunto com
+a controladora do kit.
 
- - Sensores, Atuadores, Cabo e outros.
- 
-    ![Imagem com Sensores, atuadores, cabos e outros](images/sensores-atuadores.png)
+## Componentes
 
- - Eixos
+### Rodas, pneus e engrenagens
 
-    ![Imagem com eixos](images/eixos.png)
+![Rodas, pneus e engrenagens do kit](images/rodas-pneus.png)
 
- - Vigas
+### Sensores, atuadores e cabos
 
-    ![Imagem com vigas](images/vigas.png)
+![Sensores, atuadores e cabos do kit](images/sensores-atuadores.png)
 
- - Conectores e peças complementares diversas
+### Eixos
 
-    ![Imagem com peças complementares](images/complementares.png)
+![Eixos do kit](images/eixos.png)
 
+### Vigas
 
-   - Componentes eletrônicos plugáveis 
+![Vigas do kit](images/vigas.png)
 
-      - 01 Motor de corrente contínua de 5V, tamanho médio.
-      - 02 Sensores de toque.
-      - 02 Motor de corrente continua de 5v,tamanho grande
-      - 01 Sensor de Distancia Ultrassônico
-      - 01 Sensor giroscópio
-      - 01 Sensor de cor
-  - Especificações do software
-    - Programação em bloco e todos os ícones em português
-    - Compatível com os sistemas operacionais Linux e Windows
-    - Criação de jogos com personagens e fundo
-  - Unidade de controle arquitetura ARM
-    - Configuração da bateria
-      - Bateria: Fornecimento externo de energia, suporta 6 pilhas/ bateria de lítio 2200mA
-      - Modo de carregamento: carregamento da bateria de lítio
-      - Capacidade da bateria: 220mAh
-      - Tensão de carregamento: 8,4V
-      - Tempo de carregamento: 2.2hrs
-      - Tempo de uso: aproximadamente 3 horas.
-    - Característica da Tela
-      - Memória interna/ memória flash: 512KB/8MB (expansível)
-      - TFT: 2.4 polegadas, tela colorida
-      - Toque: touchScreen
-      - Exibição: Português, exibindo números, textos e imagens etc.
-      - Resolução: 320×240 pixels
+### Conectores e peças complementares
 
-    - Configuração do sistema:
-      - Controlador programável: Corext-M3
-      - Sistema: sistema real-time
-      - Frequência básica: 7.2Mhz
-      - RAM/USB: 64Mb/2.0
-      - WIFI/MP3: tipo esportivo
-      - Compatibilidade: Android/IOS/Windows
-      - Programa de desenvolvimento: SCRATCH 3.0
-      - Tipo de comunicação de controle: WIFI
-      - Botão: 1 botão de força e 2 teclas de função
-      - Entrada RJ12 para sensores: 8
-      - Saídas RJ12 para motores
-     
-        <br>
+![Conectores e peças complementares](images/complementares.png)
 
-          ![Imagem com dispositivo EV6](images/ev6.png)
+Entre os componentes eletrônicos encontrados no conjunto estão:
 
-        <br>
+- 1 motor de corrente contínua de 5 V, tamanho médio;
+- 2 motores de corrente contínua de 5 V, tamanho grande;
+- 2 sensores de toque;
+- 1 sensor ultrassônico;
+- 1 sensor giroscópio;
+- 1 sensor de cor.
 
+## Controladora
 
-  - A controladora é programável por software do tipo Scratch. A interface utiliza como fonte de alimentação conexão USB através de computador ou baterias recarregáveis instaladas internamente em formato de case além de possibilidade de utilizar fonte externa DC. O cabo USB e baterias (e seus respectivos carregadores) e fonte externa DC estão inclusos no kit.
+![Controladora do conjunto EDO6](images/ev6.png)
 
+O KaziCode chama o perfil usado pelos exemplos deste repositório de `EV6`. A
+inspeção do compilador desse perfil mostrou:
 
-<br>
-<br>
+- arquitetura ARM Cortex-M3;
+- família STM32F10x de alta densidade;
+- frequência de compilação de 72 MHz;
+- 512 KiB de flash e 64 KiB de RAM descritos no linker;
+- FreeRTOS e a biblioteca de hardware `KYLib`;
+- programa do usuário gravado em uma região reservada da flash.
 
-<div id='kazi' />
-<div id='download' />
+> [!NOTE]
+> Os arquivos do fabricante mencionam tanto STM32F103ZE quanto STM32F103VET6.
+> Por isso, evitamos afirmar o encapsulamento exato sem conferir fisicamente a
+> placa. O alvo de compilação, entretanto, é claramente STM32F10x/Cortex-M3.
 
-## Download KaziCode
+Outras informações presentes no material original incluem tela colorida de 2,4
+polegadas, resolução de 320×240, oito entradas RJ12 para sensores, saídas RJ12
+para motores e alimentação por USB, pilhas, bateria recarregável ou fonte
+externa. Alguns valores do manual entram em conflito entre si e ainda precisam
+ser medidos no equipamento.
 
-|OS   |LINK |
----  |  ---  |
-|Windows	     | [KaziCode_Setup_1.0.32.rar](http://file.kazi.ai/Public/file/KaziCode%20Setup%201.0.32_en.rar) |
-|Linux  | [scratch-en-linux.zip](http://file.kazi.ai/Public/file/scratch-en-linux.zip) |
+## KaziCode
 
+Os antigos links em `file.kazi.ai` deixaram de funcionar. Conseguimos recuperar
+o KaziCode 1.0.31 e registramos a origem, a versão interna e os checksums na
+[página de downloads](./docs/instalacao/).
 
-_Caso o download não seja feito e o navegador esteja barrando, copie o endereço do link, cole a url no navegador e ao iniciar o download clique em 'manter'_
+O programa oferece dois caminhos principais:
 
-<div id='programming'/>
+- programação visual baseada em Scratch 3;
+- código textual, incluindo C e Python.
 
-## Programação
+Por padrão, o KaziCode abre no modo de blocos. Para mudar o ambiente, use o
+seletor de modo no menu superior:
 
- #### No kazi code podemos optar por programar no modelo do scratch (Códigos em bloco) ou escolher alguma linguagem como C ou Python. Por padrão o Kazi irá abrir em modo de código em bloco
+![Seletor do modo de programação](images/menu-code.png)
 
-- Para realizar a troca do modo de programação selecione o modo de coding desejado no menu superior:
-  <br>
+O modo `Codeock` abre o editor textual:
 
-    ![Imagem](images/menu-code.png)
+![Editor Codeock](images/codeock.png)
 
-- O modo codeock será o modo de programação utilizado para as linguagens selecionadas
-    <br>
-    <br>
-    ![Imagem](images/codeock.png)
-    <br>
-    <br>
-- Para selecionar a linguagem desejada basta escolher no menu superior ao lado do modo de programação:
- <br>
+Depois, selecione a linguagem desejada no menu ao lado:
 
-  ![Imagem](images/menu-ling.png)
+![Seletor de linguagem do KaziCode](images/menu-ling.png)
+
+Para C, consulte o [guia específico](./docs/programacao/c.md). Ele descreve o
+fluxo real usado pelo KaziCode: compilação, link, geração do `.bin` e cópia para
+a controladora.
+
+## Montagens e exemplos
+
+- [Base motriz](./base-motriz/)
+- [Movimentos](./aulas/aula_02-locomocao/CODIGO-movimento/)
+- [Sensor giroscópio](./aulas/aula_03-manipulacao/CODIGO-movimento_giroscopio/)
+- [Sensor ultrassônico](./aulas/aula_04-sensores/CODIGO-sensor_de_obstaculo/)
+- [Sensor de cor e seguidor de linha](./aulas/aula_04-sensores/CODIGO-sensor_de_cores_e_luz/)
+
+## Encontrou algo diferente?
+
+Este material fica melhor quando alguém testa no kit e conta o que aconteceu.
+Ao abrir um issue, informe o modelo selecionado no KaziCode, o sistema
+operacional, a arquitetura do computador e, se houver erro, envie a mensagem
+completa. Fotos da tela da controladora também ajudam bastante.
